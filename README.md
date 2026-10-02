@@ -11,3 +11,5 @@ Events, prices and academic results are fictional. This is an unofficial student
 ## License
 
 MIT License, Copyright (c) 2026 bbppzh. Preserve the copyright and license notices when redistributing the game.
+
+The pixel interface includes an AI-generated fictional campus panorama and embedded Pixelify Sans under the SIL Open Font License. Its license is preserved inside the HTML files and in `FONT-LICENSE.txt`.
