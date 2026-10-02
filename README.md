@@ -1,15 +1,19 @@
 # PolyU Life Simulator
 
-A fictional, student-made text game about a fourteen-week PolyU semester. Choose two talents, allocate attributes, and make decisions about academics, friendships, energy, happiness, and budget. Includes 26 events and six endings.
+A fictional student game about a fourteen-week PolyU semester. Choose two talents, allocate attributes, and balance academics, friendships, energy, happiness, and budget. Includes 26 events and six endings.
 
-Play at the published GitHub Pages URL, or download `PolyU-Life-Simulator.html` and open it in a desktop browser. On iPhone, use Safari to open the website; the Files preview may not execute the game.
+- [Version selector](https://bbppzh.github.io/PolyU-life-simulator/)
+- [V1 original edition](https://bbppzh.github.io/PolyU-life-simulator/v1/)
+- [V2 pixel edition](https://bbppzh.github.io/PolyU-life-simulator/v2/)
 
-All game code and styles are included in `index.html`. No ChatGPT account, AI API, external fonts, or login is required to play. The downloadable file also includes everything needed for offline desktop play.
+Each version has its own self-contained `index.html` and downloadable `PolyU-Life-Simulator.html`. Open offline HTML in a desktop browser. On iPhone, use Safari to open the website; the Files preview may not execute the game. The previous root download URL remains the V2 edition.
 
-Events, prices and academic results are fictional. This is an unofficial student project, not a real GPA or a university service.
+No ChatGPT account, login, AI API, or external asset requests are required to play. Progress is local to the current page session; refreshing or switching editions starts a new game.
+
+Events, prices and academic results are fictional. This is an unofficial student project, not a real GPA or university service.
 
 ## License
 
-MIT License, Copyright (c) 2026 bbppzh. Preserve the copyright and license notices when redistributing the game.
+MIT License, Copyright (c) 2026 bbppzh. Preserve notices when redistributing.
 
-The pixel interface includes an AI-generated fictional campus panorama and embedded Pixelify Sans under the SIL Open Font License. Its license is preserved inside the HTML files and in `FONT-LICENSE.txt`.
+V2 includes an AI-generated fictional campus panorama and embedded Pixelify Sans under the SIL Open Font License. The font license is preserved inside its HTML files and in `FONT-LICENSE.txt`.
