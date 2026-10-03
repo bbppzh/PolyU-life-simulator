@@ -9,7 +9,7 @@ Four editions in one repository. Each folder opens directly into its game; the h
 | V1 | 14-week semester, talents, visible stats, six endings | Original light interface | [V1](https://bbppzh.github.io/PolyU-life-simulator/v1/) |
 | V2 | Original semester gameplay | Pixel campus, retro interface | [V2](https://bbppzh.github.io/PolyU-life-simulator/v2/) |
 | V3 | Four years, six major directions, 32 decisions, four hidden scores, eight endings | Text-driven interface and major-specific scenarios | [V3](https://bbppzh.github.io/PolyU-life-simulator/v3/) |
-| V3.1 | V3 gameplay | Pixel interface, original campus illustration, original looping chiptune and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
+| V3.1 | Four years, two talents, 16 attribute points, live status, semester GPA and CGPA | Pixel interface, original campus illustration, layered electronic music and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
 
 ## Download every version
 
@@ -17,7 +17,13 @@ Click **Code → Download ZIP** in this repository. It contains all four version
 
 ## V3.1 music
 
-The header Music ON/OFF button controls “After Class”, an original 40-second chiptune loop synthesised locally in the browser. Music starts only after a click. Turning it off cancels scheduled notes; switching away from the page pauses music. Tap again to resume. No audio files, streaming services or external APIs are needed. The pixel campus SVG is original; the bundled Pixelify Sans font uses the SIL Open Font License.
+The header Music ON/OFF button controls “After Class — Arcade Mix”, an original 32-bar electronic chiptune arrangement at 112 BPM synthesised locally in the browser. Music starts only after a click. Turning it off cancels scheduled notes; switching away from the page pauses music. Tap again to resume. Its intro, groove, breakdown and reprise combine melody, arpeggios, pads, counter melody, bass and drums. No audio files, streaming services or external APIs are needed. The pixel campus SVG is original; the bundled Pixelify Sans font uses the SIL Open Font License.
+
+## V3.1 live status and grades
+
+Choose two talents, then distribute 16 points among Focus, Social, Discipline and Luck (0–8 per attribute). Your allocation changes gameplay effects and uncertain outcomes. Live status shows Semester GPA, CGPA, Sanity, Social Value and Resume Strength.
+
+Current-semester GPA is an estimate updated by choices. Four decisions complete a semester; its final GPA is recorded and CGPA becomes the average of completed semester GPAs. Each term has equal weight in this game. The results table keeps all eight semesters and the graduation story uses final CGPA. V3 retains its original hidden-score mechanics.
 
 ## Structure
 
