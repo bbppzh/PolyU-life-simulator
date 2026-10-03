@@ -1,19 +1,36 @@
-# PolyU Life Simulator
+# PolyU Life Simulator — All Versions
 
-A fictional student game about a fourteen-week PolyU semester. Choose two talents, allocate attributes, and balance academics, friendships, energy, happiness, and budget. Includes 26 events and six endings.
+Four editions in one repository. Each folder opens directly into its game; the homepage displays the collection. No ChatGPT account, login or AI API is required.
 
-- [Version selector](https://bbppzh.github.io/PolyU-life-simulator/)
-- [V1 original edition](https://bbppzh.github.io/PolyU-life-simulator/v1/)
-- [V2 pixel edition](https://bbppzh.github.io/PolyU-life-simulator/v2/)
+[Play the collection](https://bbppzh.github.io/PolyU-life-simulator/)
 
-Each version has its own self-contained `index.html` and downloadable `PolyU-Life-Simulator.html`. Open offline HTML in a desktop browser. On iPhone, use Safari to open the website; the Files preview may not execute the game. The previous root download URL remains the V2 edition.
+| Version | Game | Interface and features | Play |
+| --- | --- | --- | --- |
+| V1 | 14-week semester, talents, visible stats, six endings | Original light interface | [V1](https://bbppzh.github.io/PolyU-life-simulator/v1/) |
+| V2 | Original semester gameplay | Pixel campus, retro interface | [V2](https://bbppzh.github.io/PolyU-life-simulator/v2/) |
+| V3 | Four years, six major directions, 32 decisions, four hidden scores, eight endings | Text-driven interface and major-specific scenarios | [V3](https://bbppzh.github.io/PolyU-life-simulator/v3/) |
+| V3.1 | V3 gameplay | Pixel interface, original campus illustration, original looping chiptune and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
 
-No ChatGPT account, login, AI API, or external asset requests are required to play. Progress is local to the current page session; refreshing or switching editions starts a new game.
+## Download every version
 
-Events, prices and academic results are fictional. This is an unofficial student project, not a real GPA or university service.
+Click **Code → Download ZIP** in this repository. It contains all four version folders. Each folder contains a self-contained `PolyU-Life-Simulator.html` for offline desktop play. Open that file in a browser with JavaScript enabled. On iPhone, use Safari to open the public website; the Files preview may not execute the game.
+
+## V3.1 music
+
+The header Music ON/OFF button controls “After Class”, an original 40-second chiptune loop synthesised locally in the browser. Music starts only after a click. Turning it off cancels scheduled notes; switching away from the page pauses music. Tap again to resume. No audio files, streaming services or external APIs are needed. The pixel campus SVG is original; the bundled Pixelify Sans font uses the SIL Open Font License.
+
+## Structure
+
+- `index.html`: the collection homepage.
+- `v1/`, `v2/`, `v3/`, `v3.1/`: playable versions and offline HTML downloads.
+- `PolyU-Life-Simulator.html`: the previously shared root offline URL, preserved as V2.
+- `LICENSE`: MIT License, Copyright (c) 2026 bbppzh.
+- `FONT-LICENSE.txt`: Pixelify Sans license; also included in pixel editions.
+
+Game code and styling are included in the HTML so every edition can be inspected or redistributed independently. Progress stays in the current page session; refreshing, closing or changing versions starts a new game. Character names are not sent to a server.
+
+Existing standalone V1, V2 and V3 websites remain available. All four playable editions are now also collected here. This is an unofficial fictional student game; events, grades and endings do not represent real university decisions.
 
 ## License
 
-MIT License, Copyright (c) 2026 bbppzh. Preserve notices when redistributing.
-
-V2 includes an AI-generated fictional campus panorama and embedded Pixelify Sans under the SIL Open Font License. The font license is preserved inside its HTML files and in `FONT-LICENSE.txt`.
+MIT for game code, original music and original SVG art. Preserve copyright and license notices. V2's fictional campus panorama was AI-generated. Pixelify Sans is bundled under SIL OFL, with notices in the HTML and font license files.
