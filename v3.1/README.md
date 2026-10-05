@@ -12,4 +12,4 @@ The pixel campus illustration is an original SVG. Pixelify Sans is bundled under
 
 Open offline HTML in a desktop browser. On iPhone, open the public website in Safari. The Files preview may not run JavaScript. Refreshing or closing resets the story. This is an unofficial fictional game, not a real transcript or university service.
 
-MIT License, Copyright (c) 2026 bbppzh. Font notices are preserved in FONT-LICENSE.txt and the HTML.
+**Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact. Font notices are preserved in FONT-LICENSE.txt and the HTML.

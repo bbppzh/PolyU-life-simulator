@@ -1,5 +1,7 @@
 # PolyU Life Simulator — All Versions
 
+**Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact.
+
 Four editions in one repository. Each folder opens directly into its game; the homepage displays the collection. No ChatGPT account, login or AI API is required.
 
 [Play the collection](https://bbppzh.github.io/PolyU-life-simulator/)
@@ -30,13 +32,14 @@ Current-semester GPA is an estimate updated by choices. Four decisions complete 
 - `index.html`: the collection homepage.
 - `v1/`, `v2/`, `v3/`, `v3.1/`: playable versions and offline HTML downloads.
 - `PolyU-Life-Simulator.html`: the previously shared root offline URL, preserved as V2.
-- `LICENSE`: MIT License, Copyright (c) 2026 bbppzh.
+- `LICENSE`: custom Personal-Play License; academic and commercial reuse require written permission.
+- `LEGACY-MIT-NOTICE.txt`: preserved permissions for earlier MIT versions/materials.
 - `FONT-LICENSE.txt`: Pixelify Sans license; also included in pixel editions.
 
-Game code and styling are included in the HTML so every edition can be inspected or redistributed independently. Progress stays in the current page session; refreshing, closing or changing versions starts a new game. Character names are not sent to a server.
+Game code and styling are included in the HTML for personal play and private source inspection under the applicable license. Progress stays in the current page session; refreshing, closing or changing versions starts a new game. Character names are not sent to a server.
 
 Existing standalone V1, V2 and V3 websites remain available. All four playable editions are now also collected here. This is an unofficial fictional student game; events, grades and endings do not represent real university decisions.
 
 ## License
 
-MIT for game code, original music and original SVG art. Preserve copyright and license notices. V2's fictional campus panorama was AI-generated. Pixelify Sans is bundled under SIL OFL, with notices in the HTML and font license files.
+**Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact. V2's fictional campus panorama was AI-generated. Pixelify Sans is bundled under SIL OFL, with notices in the HTML and font license files.

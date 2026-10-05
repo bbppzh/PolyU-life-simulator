@@ -12,4 +12,4 @@ This is an unofficial fictional simulation. GPA is a simplified game score, not 
 
 Scenario context: [add/drop](https://support.ar.polyu.edu.hk/portal/en/kb/subregistration/add-drop-period), [residential education](https://www.polyu.edu.hk/nso/holistic-development/residential-education/), [WIE](https://www.polyu.edu.hk/nso/plan-your-study-2/work-integrated-education/). Specific programme rules differ; the story invents its people, choices and consequences.
 
-MIT License, Copyright (c) 2026 bbppzh.
+**Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact.
