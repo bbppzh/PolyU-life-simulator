@@ -270,8 +270,45 @@ kbd{display:inline-grid;place-items:center;min-width:23px;padding:1px 5px;border
 
 .result{scroll-margin-top:100px;scroll-margin-bottom:24px}
 
+/* Original running-bond brickwork, drawn in pixel-sized courses. */
+:root{--brick:#bc624c;--mortar:#633d43;--campus-bricks:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='32' shape-rendering='crispEdges'%3E%3Crect width='96' height='32' fill='%239d473b'/%3E%3Cpath d='M0 0h48v16H0zm24 16h48v16H24z' fill='%23ad5342'/%3E%3Cpath d='M0 0h96M0 16h96M0 32h96M0 0v16M48 0v16M96 0v16M24 16v16M72 16v16' fill='none' stroke='%23552c31' stroke-width='2'/%3E%3Cpath d='M3 3h42m6 0h42M27 19h42M3 19h18m54 0h18' stroke='%23c47657' stroke-width='1'/%3E%3C/svg%3E")}
+.masthead{border-bottom-color:var(--mortar)}
+.masthead::after{content:'';position:absolute;left:0;right:0;bottom:-15px;height:14px;background:var(--campus-bricks);background-size:96px 32px;border-bottom:2px solid #552c31;box-shadow:0 4px 0 #0d1020;pointer-events:none}
+.setup-panel::before{content:'';display:block;height:18px;background:var(--campus-bricks);background-size:96px 32px;border:2px solid var(--mortar);box-shadow:3px 3px 0 #090f22;margin-bottom:22px}
+.pixel-campus{border-color:#ac6956}
+.event-panel,.graduation-card{border-color:#ac6956}
+.branch-panel{border-color:#a8dac0}
+.event-meta{background:linear-gradient(#271e2ad9,#271e2ad9),var(--campus-bricks);background-size:auto,96px 32px;border-bottom-color:#845451;color:#e1d1cb}
+.major-card,.talent-card{border-color:#77545d}
+.major-card.selected,.talent-card.selected{border-color:#a8dac0}
+.audio-settings{width:44px;height:44px;flex-shrink:0;display:grid;place-items:center;padding:8px;border:2px solid #ac6956;background:#3b2c38;box-shadow:3px 3px 0 #0d1020;color:#ffd38b}
+.audio-settings:hover{background:#584044;border-color:#df9970}
+.audio-settings svg{width:24px;height:24px;fill:#3b2c38;stroke:currentColor;stroke-width:2}
+.header-controls{gap:12px}
+.header-note{margin-right:8px}
+.audio-panel{width:min(460px,calc(100vw - 32px));max-width:none;max-height:calc(100dvh - 32px);padding:24px;border-color:#ac6956;overflow-y:auto}
+.audio-panel::before{content:'';display:block;height:16px;background:var(--campus-bricks);background-size:96px 32px;border:1px solid var(--mortar);margin-bottom:16px}
+.audio-panel h2{margin:8px 0;font-size:35px}
+.audio-panel .audio-intro{font-size:14px;margin:0 0 12px}
+.audio-channel{border-top:2px dashed #77545d;padding:14px 0}
+.audio-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.audio-heading label{font:600 24px/1.1 Pixelify,monospace;color:#f4f0dd}
+.audio-heading output{font:600 24px Pixelify,monospace;color:#ffd38b;font-variant-numeric:tabular-nums;min-width:50px;text-align:right}
+.audio-panel input[type=range]{display:block;width:100%;height:44px;min-height:44px;margin:0;padding:0;background:transparent;border:0;box-shadow:none;accent-color:#ffd38b;cursor:pointer;touch-action:pan-y}
+.audio-channel p{font-size:12px;line-height:1.6;margin:4px 0 10px}
+.audio-actions{display:flex;gap:10px;flex-wrap:wrap}
+.audio-action{min-height:44px;padding:10px 13px;border:2px solid #7785a6;background:#2c314b;color:#eff1e8;font:600 17px/1.2 Pixelify,monospace;box-shadow:3px 3px 0 #090f22}
+.audio-action:hover:not(:disabled){background:#39415c;border-color:#ffd38b}
+.audio-action[aria-pressed=true]{background:#303e46;border-color:#a8dac0;color:#c5f5d9}
+.audio-action:disabled{color:#808da6;border-color:#49516c;box-shadow:none;cursor:default}
+.audio-panel .audio-note{font-size:12px;line-height:1.7;margin:0 0 18px}
+.audio-panel .full-width{margin-top:4px}
+@media(max-width:480px){.header-controls{gap:8px}.audio-panel{padding:22px}.audio-panel h2{font-size:32px}.audio-heading label,.audio-heading output{font-size:22px}.audio-settings{padding:7px}}
+@media(max-width:350px){.masthead{gap:6px}.brand{font-size:15px}.brand span{font-size:11px;margin-left:0;padding:3px}.header-controls{gap:6px}.music-toggle{min-width:98px;padding-inline:6px;font-size:12px;gap:6px}.audio-panel{padding:19px}.audio-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.audio-action{font-size:15px;padding-inline:6px}}
+
 </style></head><body>
-<header class="masthead"><a href="" aria-label="PolyU Life Simulator home" class="brand">POLYU LIFE <span>V3.2</span></a><div class="header-controls"><span class="header-note">FOUR YEARS / YOUR STORY</span><button id="music-toggle" class="music-toggle" type="button" aria-pressed="false" aria-label="Turn background music on"><span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="music-label">MUSIC OFF</span></button><span id="music-status" class="sr-only" role="status" aria-live="polite"></span></div></header>
+<header class="masthead"><a href="" aria-label="PolyU Life Simulator home" class="brand">POLYU LIFE <span>V3.2</span></a><div class="header-controls"><span class="header-note">FOUR YEARS / YOUR STORY</span><button id="music-toggle" class="music-toggle" type="button" aria-pressed="false" aria-label="Turn background music on"><span class="music-bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="music-label">MUSIC OFF</span></button><button id="audio-settings" class="audio-settings" type="button" aria-label="Sound settings" title="Sound settings" aria-controls="audio-panel" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true" shape-rendering="crispEdges"><path d="M5 3v18M12 3v18M19 3v18"/><path d="M2 7h6v4H2zm7 6h6v4H9zm7-8h6v4h-6z"/></svg></button><span id="music-status" class="sr-only" role="status" aria-live="polite"></span></div></header>
+<dialog id="audio-panel" class="audio-panel" aria-labelledby="audio-title"><form method="dialog"><span class="eyebrow">CAMPUS SOUNDTRACK</span><h2 id="audio-title">Sound settings</h2><p class="audio-intro">Your music. Your volume.</p><section class="audio-channel" aria-label="Background music"><div class="audio-heading"><label for="music-volume">Music volume</label><output id="music-volume-value" for="music-volume">55%</output></div><input id="music-volume" type="range" min="0" max="100" step="1" value="55" aria-describedby="music-volume-note"><p id="music-volume-note">After Class — Arcade Mix · original chiptune</p><button id="music-preview" class="audio-action" type="button" aria-pressed="false">Play music</button></section><section class="audio-channel" aria-label="Interaction sounds"><div class="audio-heading"><label for="effects-volume">Effects volume</label><output id="effects-volume-value" for="effects-volume">45%</output></div><input id="effects-volume" type="range" min="0" max="100" step="1" value="45" aria-describedby="effects-status"><p id="effects-status" role="status" aria-live="polite">Short pixel tones for choices, points and navigation.</p><div class="audio-actions"><button id="effects-toggle" class="audio-action" type="button" aria-pressed="true">EFFECTS ON</button><button id="test-sound" class="audio-action" type="button">Test sound ♫</button></div></section><p class="audio-note">0% = mute. Volumes are saved here. Music starts off each visit.</p><button class="primary full-width" value="done">Done →</button></form></dialog>
 <main id="app"><section class="loading"><h1>PolyU Life Simulator V3.2</h1><p>The story is loading. If this remains visible, open the website in Safari or another browser with JavaScript enabled. iPhone Files previews may not run the game.</p></section></main>
 <footer><p>An unofficial, fictional student game. Events and results are simplified; this is not a real transcript or university advice.</p><a class="offline-download" href="./PolyU-Life-Simulator.html" download="PolyU-Life-Simulator-V3.2.html">Download offline edition</a><details><summary>Campus context</summary><p>Story inspiration: <a href="https://support.ar.polyu.edu.hk/portal/en/kb/subregistration/add-drop-period" target="_blank" rel="noopener">Add/drop</a>, <a href="https://www.polyu.edu.hk/nso/holistic-development/residential-education/" target="_blank" rel="noopener">hall life</a>, and <a href="https://www.polyu.edu.hk/nso/plan-your-study-2/work-integrated-education/" target="_blank" rel="noopener">WIE</a>. The choices and consequences are fictional. Programme-specific rules vary.</p></details></footer>
 <script>
@@ -878,8 +915,9 @@ function voicesForStep(step){const position=step%(musicScore.bars*musicScore.ste
  if(full&&bar%8===7&&beat===15)voices.push({role:'fill',kind:'noise',filter:'bandpass',cutoff:2400,duration:.055,volume:.065});
  return voices;
 }
-function createMusicPlayer(button,{host=window,doc=document}={}){let context=null,master=null,noiseBuffer=null,timer=null,on=false,pending=false,destroyed=false,step=0,nextTime=0,request=0;const active=new Set(),label=button.querySelector('.music-label'),status=doc.getElementById('music-status');
- const update=(state,message='')=>{button.dataset.audioState=state;button.setAttribute('aria-pressed',String(state==='on'));button.setAttribute('aria-label',state==='on'?'Turn background music off':'Turn background music on');label.textContent=state==='on'?'MUSIC ON':state==='starting'?'STARTING…':state==='unavailable'?'MUSIC N/A':'MUSIC OFF';button.disabled=pending||state==='unavailable';if(status)status.textContent=message;};
+function createMusicPlayer(button,{host=window,doc=document,volume=.55,onStateChange=()=>{}}={}){let context=null,master=null,noiseBuffer=null,timer=null,on=false,pending=false,destroyed=false,step=0,nextTime=0,request=0,level=Number.isFinite(volume)?Math.max(0,Math.min(1,volume)):.55;const active=new Set(),label=button.querySelector('.music-label'),status=doc.getElementById('music-status');
+ const update=(state,message='')=>{button.dataset.audioState=state;button.setAttribute('aria-pressed',String(state==='on'));button.setAttribute('aria-label',state==='on'?'Turn background music off':'Turn background music on');label.textContent=state==='on'?'MUSIC ON':state==='starting'?'STARTING…':state==='unavailable'?'MUSIC N/A':'MUSIC OFF';button.disabled=pending||state==='unavailable';if(status)status.textContent=message;onStateChange(state);};
+ const setVolume=value=>{if(!Number.isFinite(value))return;level=Math.max(0,Math.min(1,value));if(master&&context){const now=context.currentTime;if(master.gain.cancelAndHoldAtTime)master.gain.cancelAndHoldAtTime(now);else{master.gain.cancelScheduledValues(now);master.gain.setValueAtTime(master.gain.value,now);}master.gain.linearRampToValueAtTime(on ? .42*level : 0,now+.03);}};
  const silence=()=>{if(timer!==null){host.clearInterval(timer);timer=null;}if(master&&context){master.gain.cancelScheduledValues(context.currentTime);master.gain.setValueAtTime(0,context.currentTime);}for(const oscillator of active){try{oscillator.stop();}catch{}oscillator.disconnect();}active.clear();on=false;};
  const stop=()=>{request++;pending=false;silence();update('off');};
  const note=(voice,time)=>{const gain=context.createGain(),filter=context.createBiquadFilter(),end=time+voice.duration;let source;
@@ -887,11 +925,115 @@ function createMusicPlayer(button,{host=window,doc=document}={}){let context=nul
  gain.gain.setValueAtTime(0,time);gain.gain.linearRampToValueAtTime(voice.volume,time+.008);gain.gain.exponentialRampToValueAtTime(.0001,end);source.connect(filter);filter.connect(gain);gain.connect(master);active.add(source);source.onended=()=>{active.delete(source);source.disconnect();filter.disconnect();gain.disconnect();};source.start(time);source.stop(end+.015);};
  const tick=()=>{if(!on||context.state!=='running'){if(on){silence();update('off','Music paused. Tap Music to play again.');}return;}if(nextTime<context.currentTime-.1)nextTime=context.currentTime+.025;while(nextTime<context.currentTime+.18){for(const voice of voicesForStep(step))note(voice,nextTime);step=(step+1)%(musicScore.bars*musicScore.stepsPerBar);nextTime+=60/musicScore.bpm/4;}};
  const toggle=async()=>{if(destroyed||pending)return;if(on){stop();return;}const Audio=host.AudioContext||host.webkitAudioContext;if(!Audio){update('unavailable','Background music is not supported in this browser.');return;}const thisRequest=++request;pending=true;update('starting');
- try{if(!context||context.state==='closed'){context=new Audio();master=context.createGain();master.gain.value=0;const compressor=context.createDynamicsCompressor();compressor.threshold.value=-22;compressor.knee.value=12;compressor.ratio.value=3;compressor.attack.value=.005;compressor.release.value=.15;master.connect(compressor);compressor.connect(context.destination);noiseBuffer=context.createBuffer(1,Math.ceil(context.sampleRate*.12),context.sampleRate);const data=noiseBuffer.getChannelData(0);let noiseSeed=23;for(let i=0;i<data.length;i++){noiseSeed=(noiseSeed*1664525+1013904223)>>>0;data[i]=noiseSeed/2147483648-1;}}await context.resume();if(destroyed||thisRequest!==request||doc.hidden)return;if(context.state!=='running')throw new Error('Audio did not start.');on=true;step=0;nextTime=context.currentTime+.025;master.gain.cancelScheduledValues(context.currentTime);master.gain.setValueAtTime(0,context.currentTime);master.gain.linearRampToValueAtTime(.42,context.currentTime+.15);timer=host.setInterval(tick,80);tick();update('on','Background music on. Original track: After Class — Arcade Mix.');}
+ try{if(!context||context.state==='closed'){context=new Audio();master=context.createGain();master.gain.value=0;const compressor=context.createDynamicsCompressor();compressor.threshold.value=-22;compressor.knee.value=12;compressor.ratio.value=3;compressor.attack.value=.005;compressor.release.value=.15;master.connect(compressor);compressor.connect(context.destination);noiseBuffer=context.createBuffer(1,Math.ceil(context.sampleRate*.12),context.sampleRate);const data=noiseBuffer.getChannelData(0);let noiseSeed=23;for(let i=0;i<data.length;i++){noiseSeed=(noiseSeed*1664525+1013904223)>>>0;data[i]=noiseSeed/2147483648-1;}}await context.resume();if(destroyed||thisRequest!==request||doc.hidden)return;if(context.state!=='running')throw new Error('Audio did not start.');on=true;step=0;nextTime=context.currentTime+.025;master.gain.cancelScheduledValues(context.currentTime);master.gain.setValueAtTime(0,context.currentTime);master.gain.linearRampToValueAtTime(.42*level,context.currentTime+.15);timer=host.setInterval(tick,80);tick();update('on','Background music on. Original track: After Class — Arcade Mix.');}
  catch{silence();update('off','Music could not start. Tap Music to try again.');}
- finally{pending=false;if(!destroyed)button.disabled=button.dataset.audioState==='unavailable';}}
+ finally{pending=false;if(!destroyed){button.disabled=button.dataset.audioState==='unavailable';onStateChange(button.dataset.audioState);}}}
  const click=()=>{void toggle();},hide=()=>{if(doc.hidden)stop();};button.addEventListener('click',click);doc.addEventListener('visibilitychange',hide);host.addEventListener('pagehide',stop);update('off');
- return {toggle,stop,get isPlaying(){return on;},destroy(){destroyed=true;stop();button.removeEventListener('click',click);doc.removeEventListener('visibilitychange',hide);host.removeEventListener('pagehide',stop);void context?.close();}};
+ return {toggle,stop,setVolume,get volume(){return level;},get isPlaying(){return on;},destroy(){destroyed=true;stop();button.removeEventListener('click',click);doc.removeEventListener('visibilitychange',hide);host.removeEventListener('pagehide',stop);void context?.close();}};
+}
+
+// Original, short pixel tones. No recordings or external audio files.
+const effectCues={
+ select:[[660,0,.065],[880,.045,.075]],
+ confirm:[[523,0,.065],[659,.055,.07],[784,.11,.09]],
+ adjust:[[740,0,.055]],
+ next:[[587,0,.065],[784,.055,.085]],
+ back:[[587,0,.06],[440,.05,.075]],
+ start:[[523,0,.07],[659,.065,.08],[1047,.13,.11]],
+ open:[[698,0,.06],[880,.04,.065]]
+};
+
+function createEffectsPlayer({host=window,doc=document,volume=.45,enabled=true}={}){
+ let context=null,master=null,destroyed=false,request=0,allowed=Boolean(enabled);
+ let level=Number.isFinite(volume)?Math.max(0,Math.min(1,volume)):.45;
+ const active=new Set();
+ const clearNotes=()=>{for(const note of active){try{note.source.stop();}catch{}note.source.disconnect();note.gain.disconnect();}active.clear();};
+ const stop=()=>{request++;clearNotes();if(master&&context){master.gain.cancelScheduledValues(context.currentTime);master.gain.setValueAtTime(0,context.currentTime);}};
+ const setEnabled=value=>{allowed=Boolean(value);if(!allowed)stop();};
+ const setVolume=value=>{
+  if(!Number.isFinite(value))return;
+  level=Math.max(0,Math.min(1,value));
+  if(level===0){stop();return;}
+  if(master&&context){const now=context.currentTime;master.gain.cancelScheduledValues(now);master.gain.setValueAtTime(master.gain.value,now);master.gain.linearRampToValueAtTime(allowed ? .16*level : 0,now+.025);}
+ };
+ const play=async cue=>{
+  if(destroyed||!allowed||level===0||doc.hidden||!Object.hasOwn(effectCues,cue))return false;
+  const Audio=host.AudioContext||host.webkitAudioContext;
+  if(!Audio)return false;
+  const thisRequest=++request;
+  try{
+   if(!context||context.state==='closed'){context=new Audio();master=context.createGain();master.gain.value=0;master.connect(context.destination);}
+   if(context.state!=='running')await context.resume();
+   if(destroyed||thisRequest!==request||!allowed||level===0||doc.hidden||context.state!=='running')return false;
+   // Replace the previous cue so fast keyboard presses never pile up sounds.
+   clearNotes();
+   const now=context.currentTime;
+   master.gain.cancelScheduledValues(now);master.gain.setValueAtTime(.16*level,now);
+   for(const [frequency,offset,duration] of effectCues[cue]){
+    const source=context.createOscillator(),gain=context.createGain(),time=now+.005+offset,end=time+duration;
+    source.type=cue==='adjust'?'triangle':'square';source.frequency.setValueAtTime(frequency,time);
+    gain.gain.setValueAtTime(0,time);gain.gain.linearRampToValueAtTime(.4,time+.005);gain.gain.exponentialRampToValueAtTime(.0001,end);
+    source.connect(gain);gain.connect(master);
+    const note={source,gain};active.add(note);
+    source.onended=()=>{active.delete(note);source.disconnect();gain.disconnect();};
+    source.start(time);source.stop(end+.01);
+   }
+   return true;
+  }catch{if(thisRequest===request)stop();return false;}
+ };
+ const hide=()=>{if(doc.hidden)stop();};
+ doc.addEventListener('visibilitychange',hide);host.addEventListener('pagehide',stop);
+ return {play,stop,setVolume,setEnabled,get volume(){return level;},get enabled(){return allowed;},destroy(){destroyed=true;stop();doc.removeEventListener('visibilitychange',hide);host.removeEventListener('pagehide',stop);void context?.close();}};
+}
+
+
+function mountAudioControls(){
+ const preferenceKey='polyu-life-v32-sound',defaults={music:.55,effects:.45,enabled:true};
+ let prefs={...defaults};
+ try{const saved=JSON.parse(localStorage.getItem(preferenceKey));if(saved&&typeof saved==='object'){for(const key of ['music','effects'])if(Number.isFinite(saved[key]))prefs[key]=Math.max(0,Math.min(1,saved[key]));if(typeof saved.enabled==='boolean')prefs.enabled=saved.enabled;}}catch{}
+ const save=()=>{try{localStorage.setItem(preferenceKey,JSON.stringify(prefs));}catch{}};
+ const panel=document.getElementById('audio-panel'),opener=document.getElementById('audio-settings'),musicPreview=document.getElementById('music-preview');
+ const effectsToggle=document.getElementById('effects-toggle'),test=document.getElementById('test-sound'),hint=document.getElementById('effects-status');
+ const music=createMusicPlayer(document.getElementById('music-toggle'),{volume:prefs.music,onStateChange:state=>{
+  musicPreview.textContent=state==='on'?'Pause music':state==='starting'?'Starting…':state==='unavailable'?'Music unavailable':'Play music';
+  musicPreview.setAttribute('aria-pressed',String(state==='on'));
+  musicPreview.disabled=state==='starting'||state==='unavailable';
+ }});
+ const effects=createEffectsPlayer({volume:prefs.effects,enabled:prefs.enabled});
+ const syncEffects=()=>{
+  effectsToggle.textContent=prefs.enabled?'EFFECTS ON':'EFFECTS OFF';
+  effectsToggle.setAttribute('aria-pressed',String(prefs.enabled));
+  test.disabled=!prefs.enabled||prefs.effects===0;
+  hint.textContent=!prefs.enabled?'Interaction sounds are off.':prefs.effects===0?'Interaction sounds are muted.':'Short pixel tones for choices, points and navigation.';
+ };
+ for(const key of ['music','effects']){
+  const slider=document.getElementById(`${key}-volume`),output=document.getElementById(`${key}-volume-value`);
+  const show=()=>{const percentage=Math.round(prefs[key]*100);slider.value=String(percentage);output.textContent=`${percentage}%`;slider.setAttribute('aria-valuetext',`${percentage} percent`);};
+  show();
+  slider.addEventListener('input',()=>{prefs[key]=Number(slider.value)/100;(key==='music'?music:effects).setVolume(prefs[key]);show();save();if(key==='effects')syncEffects();});
+ }
+ opener.addEventListener('click',()=>{panel.showModal();opener.setAttribute('aria-expanded','true');});
+ panel.addEventListener('close',()=>opener.setAttribute('aria-expanded','false'));
+ musicPreview.addEventListener('click',()=>{void music.toggle();});
+ effectsToggle.addEventListener('click',()=>{prefs.enabled=!prefs.enabled;effects.setEnabled(prefs.enabled);syncEffects();save();if(prefs.enabled)void effects.play('select');});
+ test.addEventListener('click',async()=>{if(!await effects.play('confirm'))hint.textContent='Sound could not start. Try again in your browser.';});
+ // Capture before setup/story handlers replace their DOM. Keyboard shortcuts call
+ // the same buttons, so a decision has exactly one cue with either input method.
+ document.addEventListener('click',event=>{
+  const control=event.target.closest('button,summary');
+  if(!control||control.disabled||control.closest('#audio-panel,.header-controls'))return;
+  if(!control.closest('#app,footer,dialog[data-game-restart]'))return;
+  let cue='select';
+  if(control.matches('[data-choice]'))cue='confirm';
+  else if(control.matches('[data-adjust],#reset-attributes'))cue='adjust';
+  else if(control.matches('#begin,#replay,[value="restart"]'))cue='start';
+  else if(control.matches('#advance,#next-setup,#next-attributes'))cue='next';
+  else if(control.matches('#back-setup,#back-talents,#restart,[value="cancel"]'))cue='back';
+  else if(control.matches('summary'))cue='open';
+  void effects.play(cue);
+ },true);
+ syncEffects();
+ return {music,effects};
 }
 
 const app=document.getElementById('app');
@@ -941,12 +1083,12 @@ document.addEventListener('keydown',event=>{
   event.preventDefault();app.querySelector('#advance')?.click();
  }
 });
-function intro(){return `<div class="setup-intro"><span class="eyebrow">PIXEL CAMPUS / FOUR-YEAR ADVENTURE</span><h1>One campus. <br>Four years. <br><em>Your choices.</em></h1><p>Choose a major. Meet Jade, Ken and Dr Leung. See how your decisions change the conversations that come next.</p><p class="intro-small">Pick two talents and allocate 16 attribute points. Watch your live status, build a GPA each semester and see your CGPA grow across four years. Three conflicts lead to different follow-up conversations, with people who remember how you handled them.</p><div class="pixel-campus" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 108" shape-rendering="crispEdges">
+function intro(){return `<div class="setup-intro"><span class="eyebrow">RED-BRICK CAMPUS / FOUR-YEAR ADVENTURE</span><h1>One campus. <br>Four years. <br><em>Your choices.</em></h1><p>Choose a major. Meet Jade, Ken and Dr Leung. See how your decisions change the conversations that come next.</p><p class="intro-small">Pick two talents and allocate 16 attribute points. Watch your live status, build a GPA each semester and see your CGPA grow across four years. Three conflicts lead to different follow-up conversations, with people who remember how you handled them.</p><div class="pixel-campus" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 108" shape-rendering="crispEdges"><defs><pattern id="campus-bricks" width="16" height="8" patternUnits="userSpaceOnUse"><rect width="16" height="8" fill="#aa5044"/><path d="M0 0h16M0 4h16M8 0v4M0 4v4M16 4v4" fill="none" stroke="#713f41" stroke-width="1"/><path d="M1 1h6m2 0h6M1 5h14" stroke="#c16b51" stroke-width="1"/></pattern></defs>
 <rect width="320" height="108" fill="#24283f"/><path d="M12 12h4v4h-4zm46 8h3v3h-3zm193-7h4v4h-4zm48 20h3v3h-3zm-90-16h3v3h-3z" fill="#a5b8e9"/>
 <path d="M268 12h14v4h4v14h-4v4h-14v-4h-4V16h4z" fill="#ffd38b"/><path d="M274 12h8v4h4v14h-4v-4h-8z" fill="#24283f"/>
 <path d="M15 86V48h32v-8h12v46h11V29h48v57h15V44h70v42h15V36h41v50h24V59h22v27z" fill="#38364c"/>
-<rect x="51" y="43" width="48" height="47" fill="#b45150"/><rect x="57" y="35" width="36" height="8" fill="#dc7963"/><rect x="99" y="66" width="15" height="24" fill="#dc7963"/>
-<rect x="114" y="56" width="100" height="34" fill="#b45150"/><rect x="120" y="50" width="88" height="6" fill="#dc7963"/><rect x="214" y="39" width="42" height="51" fill="#b45150"/><rect x="220" y="33" width="30" height="6" fill="#dc7963"/>
+<rect x="51" y="43" width="48" height="47" fill="url(#campus-bricks)"/><rect x="57" y="35" width="36" height="8" fill="#dc7963"/><rect x="99" y="66" width="15" height="24" fill="#dc7963"/>
+<rect x="114" y="56" width="100" height="34" fill="url(#campus-bricks)"/><rect x="120" y="50" width="88" height="6" fill="#dc7963"/><rect x="214" y="39" width="42" height="51" fill="url(#campus-bricks)"/><rect x="220" y="33" width="30" height="6" fill="#dc7963"/>
 <path d="M59 49h8v9h-8zm16 0h8v9h-8zm-16 16h8v9h-8zm16 0h8v9h-8zm47-2h9v10h-9zm17 0h9v10h-9zm17 0h9v10h-9zm17 0h9v10h-9zm17 0h9v10h-9zm30-18h8v10h-8zm16 0h8v10h-8zm-16 17h8v10h-8zm16 0h8v10h-8z" fill="#ffd38b"/>
 <rect x="152" y="77" width="23" height="13" fill="#362638"/><path d="M156 77h4v13h-4zm9 0h4v13h-4z" fill="#a5b8e9"/>
 <path d="M27 61h8v29h-8zm246 3h8v26h-8z" fill="#775251"/><path d="M19 55h24v8h4v12H15V63h4zm246 3h24v8h4v12h-32V66h4z" fill="#7db29f"/><path d="M19 55h24v8H19zm246 3h24v8h-24z" fill="#a8dac0"/>
@@ -990,9 +1132,9 @@ function renderGame(shouldFocus=false){const previousBars=preserveBarWidths();if
 }
 function renderEnding(){const report=graduationReport(game),e=report.ending;app.innerHTML=`<section class="ending"><span class="eyebrow">FOUR-YEAR CHECKPOINT / ${report.major.name.toUpperCase()}</span><span class="ending-badge">${e.badge}</span><h1 id="ending-title" tabindex="-1">${e.title}</h1><p class="ending-lead">${esc(game.name)}, this is the story your choices built.</p><p class="ending-text">${e.text}</p><div class="graduation-card"><div class="card-heading"><span>YOUR FOUR-YEAR RESULTS</span><span>SIMULATED</span></div><div class="final-gpa"><span>Final CGPA</span><strong>${report.gpa}<small> / 4.30</small></strong></div><dl class="final-stats"><div><dt>Sanity</dt><dd>${Math.round(game.stats.sanity)} / 100 <span>${report.qualities.sanity}</span></dd></div><div><dt>Social Value</dt><dd>${Math.round(game.stats.social)} / 100 <span>${report.qualities.social}</span></dd></div><div><dt>Resume Strength</dt><dd>${Math.round(game.stats.resume)} / 100 <span>${report.qualities.resume}</span></dd></div></dl><p class="simulation-note">Fictional game results. The semester GPA and CGPA are not a real university transcript.</p></div>${academicHistory(true)}<section class="personal-epilogue"><span class="eyebrow">THIS PARTICULAR POLYU LIFE</span><h2>The people and decisions you take with you</h2>${report.epilogue.map(p=>`<p>${p}</p>`).join('')}</section>${peoplePanel(true)}<div class="next-chapter"><h2>Your next chapter</h2><p>${report.direction}</p></div><section class="milestones"><h2>The decisions behind this ending</h2>${report.milestones.map(h=>`<div><span>YEAR ${h.year}</span><p><strong>${h.title}</strong>${h.choice}</p></div>`).join('')}</section><button class="primary" id="replay">Start a different PolyU life →</button><p class="replay-note">A different major. Different talents. A different four years.</p></section>${buildSummary()}${journal()}`;app.querySelector('#replay').addEventListener('click',reset);focus('#ending-title');window.scrollTo({top:0,behavior:reducedMotion()?'auto':'smooth'});}
 function reset(){window.clearTimeout(confirmationTimer);confirmationTimer=null;game=null;majorId='';talentIds=[];attrs={...startingAttributes};setupStep=1;setup('#setup-title');window.scrollTo({top:0,behavior:reducedMotion()?'auto':'smooth'});}
-function confirmRestart(){const dialog=document.createElement('dialog');dialog.innerHTML='<form method="dialog"><span class="eyebrow">A FRESH START</span><h2>Start a new four-year story?</h2><p>Your current story will end. Choose a different major, talents and attributes.</p><div class="dialog-actions"><button class="text-button" value="cancel">Keep playing</button><button class="primary" value="restart">Start over</button></div></form>';document.body.append(dialog);dialog.addEventListener('close',()=>{if(dialog.returnValue==='restart')reset();dialog.remove();});dialog.showModal();}
+function confirmRestart(){const dialog=document.createElement('dialog');dialog.dataset.gameRestart='';dialog.innerHTML='<form method="dialog"><span class="eyebrow">A FRESH START</span><h2>Start a new four-year story?</h2><p>Your current story will end. Choose a different major, talents and attributes.</p><div class="dialog-actions"><button class="text-button" value="cancel">Keep playing</button><button class="primary" value="restart">Start over</button></div></form>';document.body.append(dialog);dialog.addEventListener('close',()=>{if(dialog.returnValue==='restart')reset();dialog.remove();});dialog.showModal();}
 setup();
-createMusicPlayer(document.getElementById('music-toggle'));
+mountAudioControls();
 
 })();
 </script></body></html>

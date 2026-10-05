@@ -24,9 +24,13 @@ Use number keys to pick a major (1–6), talents (1–8) or a story option (1–
 
 A choice highlights in place for 300 ms while further choices are disabled. The selected card then stays beside its outcome until the player continues. Score chips arrive in a short stagger, and live bars transition between the previous and new values. Reduced-motion preferences skip the confirmation delay, animations and smooth scrolling. The four-year journal already records every decision, consequence and actual score change.
 
-## Music and downloads
+## Red-brick campus, sound and downloads
 
-The original “After Class — Arcade Mix” remains: 32 bars at 112 BPM, with pulse lead, arpeggios, pads, counter melody, bass and drums. The header Music ON/OFF switch starts off and requires a click. Leaving the page pauses playback; tap again to resume. No audio service or API is used.
+The original “After Class — Arcade Mix” remains: 32 bars at 112 BPM, with pulse lead, arpeggios, pads, counter melody, bass and drums. The header Music ON/OFF switch starts off and requires a click. Open the sliders icon beside it for separate 0–100% music and effects volume controls, an Effects ON/OFF switch, and a test sound. Music defaults to 55% and effects to 45%; 0% mutes either channel. Sound preferences are remembered in this browser when storage is available, while music always starts off on a new visit. Leaving the page stops playback; returning does not start music automatically.
+
+Original synthesized pixel tones respond to mouse clicks, numeric choices, point adjustments, navigation and Enter continuation. Rapid inputs replace the prior short cue instead of stacking sound. Typing and unavailable choices do not trigger effects. All sounds use local Web Audio synthesis, with no service or external recordings. Sound settings use a native dialog and labelled keyboard-operable sliders; game shortcuts pause while the dialog is open.
+
+Original pixel brickwork adds terracotta bands to the header and character setup, masonry in the campus illustration, and warmer event-card details. Main story text keeps a plain dark background for readability. Earlier versions and their appearance remain available.
 
 Download the self-contained `PolyU-Life-Simulator.html` for desktop play. No login, ChatGPT, AI API, server or external asset download is needed for offline gameplay. On iPhone, use Safari to open the public website; the Files preview may not run JavaScript. Refreshing or closing resets the story. Names stay in the page.
 
