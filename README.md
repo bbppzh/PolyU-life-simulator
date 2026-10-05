@@ -1,8 +1,8 @@
 # PolyU Life Simulator — All Versions
 
-**Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact.
+Five editions in one repository. Each folder opens directly into its game; the homepage displays the collection. No ChatGPT account, login or AI API is required.
 
-Four editions in one repository. Each folder opens directly into its game; the homepage displays the collection. No ChatGPT account, login or AI API is required.
+**Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact.
 
 [Play the collection](https://bbppzh.github.io/PolyU-life-simulator/)
 
@@ -13,9 +13,11 @@ Four editions in one repository. Each folder opens directly into its game; the h
 | V3 | Four years, six major directions, 32 decisions, four hidden scores, eight endings | Text-driven interface and major-specific scenarios | [V3](https://bbppzh.github.io/PolyU-life-simulator/v3/) |
 | V3.1 | Four years, two talents, 16 attribute points, live status, semester GPA and CGPA | Pixel interface, original campus illustration, layered electronic music and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
 
+| V3.2 | All V3.1 features, recurring people, evolving relationships, 32 main moments and 3 branch decisions | Pixel music edition with nine possible follow-up scenes, specific major outcomes and personalised memories | [V3.2](https://bbppzh.github.io/PolyU-life-simulator/v3.2/) |
+
 ## Download every version
 
-Click **Code → Download ZIP** in this repository. It contains all four version folders. Each folder contains a self-contained `PolyU-Life-Simulator.html` for offline desktop play. Open that file in a browser with JavaScript enabled. On iPhone, use Safari to open the public website; the Files preview may not execute the game.
+Click **Code → Download ZIP** in this repository. It contains all five version folders. Each folder contains a self-contained `PolyU-Life-Simulator.html` for offline desktop play. Open that file in a browser with JavaScript enabled. On iPhone, use Safari to open the public website; the Files preview may not execute the game.
 
 ## V3.1 music
 
@@ -27,10 +29,16 @@ Choose two talents, then distribute 16 points among Focus, Social, Discipline an
 
 Current-semester GPA is an estimate updated by choices. Four decisions complete a semester; its final GPA is recorded and CGPA becomes the average of completed semester GPAs. Each term has equal weight in this game. The results table keeps all eight semesters and the graduation story uses final CGPA. V3 retains its original hidden-score mechanics.
 
+## V3.2 story edition
+
+V3.2 retains the V3.1 interface, music, six majors, eight talents, attribute allocation, live status, transcript, journal and eight ending categories. Jade (roommate), Ken (teammate) and Dr Leung (supervisor) recur with their own priorities and relationship memories. The missing-teammate, hall-conflict and capstone moments each lead to one of three follow-up scenes, then rejoin the semester. Each playthrough has 32 main moments and three follow-up choices.
+
+All 24 major scenarios have individually written consequences. The latest teamwork agreement changes later expectations; internship rejection produces an explicit alternative-placement plan; exchange/research/local choices return in later projects and personal ending paragraphs. Final semester GPA and CGPA are fixed after the last exams, before next-step and farewell choices. See [V3.2 story map](v3.2/STORY-MAP.md). V3.1 keeps its original stories and grade timing.
+
 ## Structure
 
 - `index.html`: the collection homepage.
-- `v1/`, `v2/`, `v3/`, `v3.1/`: playable versions and offline HTML downloads.
+- `v1/`, `v2/`, `v3/`, `v3.1/`, `v3.2/`: playable versions and offline HTML downloads.
 - `PolyU-Life-Simulator.html`: the previously shared root offline URL, preserved as V2.
 - `LICENSE`: custom Personal-Play License; academic and commercial reuse require written permission.
 - `LEGACY-MIT-NOTICE.txt`: preserved permissions for earlier MIT versions/materials.
@@ -38,7 +46,7 @@ Current-semester GPA is an estimate updated by choices. Four decisions complete 
 
 Game code and styling are included in the HTML for personal play and private source inspection under the applicable license. Progress stays in the current page session; refreshing, closing or changing versions starts a new game. Character names are not sent to a server.
 
-Existing standalone V1, V2 and V3 websites remain available. All four playable editions are now also collected here. This is an unofficial fictional student game; events, grades and endings do not represent real university decisions.
+Existing standalone V1, V2 and V3 websites remain available. All five playable editions are now also collected here. This is an unofficial fictional student game; events, grades and endings do not represent real university decisions.
 
 ## License
 
