@@ -32,6 +32,14 @@ The graduation page now brings an eight-semester decision timeline directly afte
 
 A Why this ending panel explains the actual ending selected by the unchanged engine, with its relevant final scores or recovery history. Optional rule details show route precedence. The review reads existing history and grade records; it does not reroll outcomes or change scores, story state or endings. The personal epilogue, relationships and full journal remain.
 
+## Player feedback
+
+After graduation, an optional feedback card appears below the final results and before the decision timeline. It opens a short bilingual Microsoft Forms questionnaire in a new tab, keeping the ending available. Respondents can use the link without signing in. The nine questions cover device, overall experience, story and characters, choices and consequences, status and grades, controls, the timeline, audio, issues, improvement priorities, replay interest and optional written feedback. Only device and overall rating are required. No name, student ID or email fields are included.
+
+[Player feedback questionnaire](https://forms.cloud.microsoft/r/QqeKvBqeKt)
+
+The game does not add player names, grades or choices to the form URL or send them automatically. The optional external questionnaire requires an internet connection, including when opened from the offline game. Gameplay itself remains self-contained.
+
 ## Red-brick campus, sound and downloads
 
 The original “After Class — Arcade Mix” remains: 32 bars at 112 BPM, with pulse lead, arpeggios, pads, counter melody, bass and drums. The header Music ON/OFF switch starts off and requires a click. Open the sliders icon beside it for separate 0–100% music and effects volume controls, an Effects ON/OFF switch, and a test sound. Music defaults to 55% and effects to 45%; 0% mutes either channel. Sound preferences are remembered in this browser when storage is available, while music always starts off on a new visit. Leaving the page stops playback; returning does not start music automatically.
