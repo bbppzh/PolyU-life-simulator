@@ -18,6 +18,12 @@ Choose Data Science & AI, Computing, Business, Design, Engineering or Health Sci
 
 Semester GPA is provisional until its academic milestone; CGPA averages completed semesters equally. The final semester is saved immediately after the last exams. The remaining next-step and farewell choices can change relationships, wellbeing, resume and memories, but cannot alter those final grades. All eight semester results are kept.
 
+## Keyboard and choice feedback
+
+Use number keys to pick a major (1–6), talents (1–8) or a story option (1–3). The listener accepts 1–9 only when a corresponding card exists. Shortcuts ignore typing fields, modified keys, repeat/composition events and open confirmation dialogs. After the outcome appears, Enter continues when focus is outside another interactive control.
+
+A choice highlights in place for 300 ms while further choices are disabled. The selected card then stays beside its outcome until the player continues. Score chips arrive in a short stagger, and live bars transition between the previous and new values. Reduced-motion preferences skip the confirmation delay, animations and smooth scrolling. The four-year journal already records every decision, consequence and actual score change.
+
 ## Music and downloads
 
 The original “After Class — Arcade Mix” remains: 32 bars at 112 BPM, with pulse lead, arpeggios, pads, counter melody, bass and drums. The header Music ON/OFF switch starts off and requires a click. Leaving the page pauses playback; tap again to resume. No audio service or API is used.
