@@ -6,7 +6,7 @@ Play: https://bbppzh.github.io/PolyU-life-simulator/v3.2/
 
 ## The story changes
 
-Four years, eight semesters and 32 main story moments. Three conflicts each add one follow-up decision, making 35 choices per full playthrough. The missing teammate, hall conflict and capstone each offer three different next scenes, with another decision before returning to the semester. They change information and choices, not only score text. Supporting roles from V3.1 remain; Jade (roommate), Ken (teammate) and Dr Leung (supervisor) now recur with motives, pixel portraits and a relationship-memory panel.
+Four years, eight semesters and 32 main story moments. Three conflicts each add one follow-up decision, making 35 core choices per full playthrough. Optional campus surprises add eight short decisions for 43 choices in total. The missing teammate, hall conflict and capstone each offer three different next scenes, with another decision before returning to the semester. They change information and choices, not only score text. Supporting roles from V3.1 remain; Jade (roommate), Ken (teammate) and Dr Leung (supervisor) now recur with motives, pixel portraits and a relationship-memory panel.
 
 The latest teamwork arrangement governs later callbacks. An early solo rescue can be remembered alongside a newer shared agreement without applying contradictory permanent expectations. Failed internship applications lead to an explicit alternative-placement plan. Exchange, research and local commitments change a later major scene, mentoring context, career contact and ending. Each of the 24 major scenarios has three specifically written consequences and competing costs.
 
@@ -28,9 +28,19 @@ A choice highlights in place for 300 ms while further choices are disabled. The 
 
 Enabled major, talent and story cards give a clear gold border, inset accent and stronger background on hover or keyboard focus. Story option badges and the CHOOSE arrow respond together. Pointer hover is limited to devices that support it; disabled choices and confirmed static cards do not advertise a new action. The cards keep their size and position, with reduced-motion support.
 
-The graduation page now brings an eight-semester decision timeline directly after the final results. The default view shows 12 turning points, including all three conflict follow-ups, the interview, placement and final academic checkpoint. Switch to All 35 choices to see every main and follow-up decision in chronological order. Each node shows the selected option, saved narrative consequence, uncertain-outcome notes and actual recorded stat changes. The semester headers retain their saved GPA/CGPA. Final grades are explicitly marked as fixed after the last exams.
+The graduation page now brings an eight-semester decision timeline directly after the final results. The default view shows 12 turning points, including all three conflict follow-ups, the interview, placement and final academic checkpoint. Switch to All choices (35 core, or 43 with campus surprises) to see every main and follow-up decision in chronological order. Each node shows the selected option, saved narrative consequence, uncertain-outcome notes and actual recorded stat changes. The semester headers retain their saved GPA/CGPA. Final grades are explicitly marked as fixed after the last exams.
 
 A Why this ending panel explains the actual ending selected by the unchanged engine, with its relevant final scores or recovery history. Optional rule details show route precedence. The review reads existing history and grade records; it does not reroll outcomes or change scores, story state or endings. The personal epilogue, relationships and full journal remain.
+
+## Seeded campus surprises
+
+On the points setup screen, toggle **Add campus surprises**, enter a numeric or text **Run seed** (up to 48 characters), or request a new seed. Surprises start enabled: eight unique scenes are drawn from a pool of 16, one per semester after the first main moment and any attached conversation. They cover short campus encounters, rain, canteen seats, workshops, creative breaks and practical help. They offer modest wellbeing, social or experience changes. Every scene includes a neutral **Keep my original plan** choice. The core story, characters, 32 main moments, three follow-ups and eight grade checkpoints remain.
+
+The seed is visible during play and at graduation. **Replay this build & seed** restarts with the same major, talents, attributes, seed and event setting. Repeat the choices to reproduce the same events and uncertain outcomes. **Start a different PolyU life** opens setup with a fresh seed. The event deck uses an independent deterministic stream; drawing events does not reroll the interview. Changing choices can still change later outcomes and grades through the normal stats. Turn surprises off to play the original 35-choice flow. Campus entries appear in the journal and the full graduation timeline.
+
+## Live music spectrum
+
+The header's three music bars and an eight-band pixel display in Sound settings now respond to the actual soundtrack through Web Audio frequency analysis. The display spans bass to treble, after music volume and compression, with one animation loop capped at about 30 frames per second. Music off, 0% volume and hidden pages stop the display and clear its bars. Reduced-motion preferences use a static playing indicator. The original composition and separate music/effects controls remain; the analyser uses the existing music context and requires no microphone or external assets.
 
 ## Player feedback
 
