@@ -12,8 +12,7 @@ Five editions in one repository. Each folder opens directly into its game; the h
 | V2 | Original semester gameplay | Pixel campus, retro interface | [V2](https://bbppzh.github.io/PolyU-life-simulator/v2/) |
 | V3 | Four years, six major directions, 32 decisions, four hidden scores, eight endings | Text-driven interface and major-specific scenarios | [V3](https://bbppzh.github.io/PolyU-life-simulator/v3/) |
 | V3.1 | Four years, two talents, 16 attribute points, live status, semester GPA and CGPA | Pixel interface, original campus illustration, layered electronic music and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
-
-| V3.2 | All V3.1 features, recurring people, evolving relationships, 32 main moments and 3 branch decisions | Pixel music edition with nine possible follow-up scenes, specific major outcomes and personalised memories | [V3.2](https://bbppzh.github.io/PolyU-life-simulator/v3.2/) |
+| V3.2 | All V3.1 features; recurring characters and relationship memory; 32 main moments + 3 follow-ups; 8 optional seeded events from a pool of 16 (43 choices when enabled) | Red-brick pixel UI, live music spectrum, separate music/effects volumes, keyboard shortcuts, graduation timeline, same-seed replay and feedback questionnaire | [V3.2](https://bbppzh.github.io/PolyU-life-simulator/v3.2/) |
 
 ## Download every version
 
@@ -31,7 +30,7 @@ Current-semester GPA is an estimate updated by choices. Four decisions complete 
 
 ## V3.2 story edition
 
-V3.2 retains the V3.1 interface, music, six majors, eight talents, attribute allocation, live status, transcript, journal and eight ending categories. Jade (roommate), Ken (teammate) and Dr Leung (supervisor) recur with their own priorities and relationship memories. The missing-teammate, hall-conflict and capstone moments each lead to one of three follow-up scenes, then rejoin the semester. Each playthrough has 32 main moments and three follow-up choices.
+V3.2 retains the V3.1 interface, music, six majors, eight talents, attribute allocation, live status, transcript, journal and eight ending categories. Jade (roommate), Ken (teammate) and Dr Leung (supervisor) recur with their own priorities and relationship memories. The missing-teammate, hall-conflict and capstone moments each lead to one of three follow-up scenes, then rejoin the semester. Each playthrough has 32 main moments and three follow-up choices. Optional campus surprises add eight unique events from a pool of 16, one per semester, for 43 choices in total. A numeric or text seed lets players recreate the same events and outcomes with the same character build and choices.
 
 All 24 major scenarios have individually written consequences. The latest teamwork agreement changes later expectations; internship rejection produces an explicit alternative-placement plan; exchange/research/local choices return in later projects and personal ending paragraphs. Final semester GPA and CGPA are fixed after the last exams, before next-step and farewell choices. See [V3.2 story map](v3.2/STORY-MAP.md). V3.1 keeps its original stories and grade timing.
 
