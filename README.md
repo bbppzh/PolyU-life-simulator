@@ -1,6 +1,6 @@
 # PolyU Life Simulator — All Versions
 
-Five editions in one repository. Each folder opens directly into its game; the homepage displays the collection. No ChatGPT account, login or AI API is required.
+Six editions in one repository. Each folder opens directly into its game; the homepage displays the collection. No ChatGPT account, login or AI API is required.
 
 **Current terms: personal play only; academic and commercial reuse require prior written permission.** See [LICENSE](LICENSE). This is a custom restricted license, not an open-source license. Earlier MIT releases and material retain their MIT permissions; see [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt). Third-party licenses and statutory exceptions remain intact.
 
@@ -13,10 +13,11 @@ Five editions in one repository. Each folder opens directly into its game; the h
 | V3 | Four years, six major directions, 32 decisions, four hidden scores, eight endings | Text-driven interface and major-specific scenarios | [V3](https://bbppzh.github.io/PolyU-life-simulator/v3/) |
 | V3.1 | Four years, two talents, 16 attribute points, live status, semester GPA and CGPA | Pixel interface, original campus illustration, layered electronic music and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
 | V3.2 | All V3.1 features; recurring characters and relationship memory; 32 main moments + 3 follow-ups; 8 optional seeded events from a pool of 16 (43 choices when enabled) | Red-brick pixel UI, live music spectrum, separate music/effects volumes, keyboard shortcuts, graduation timeline, same-seed replay and feedback questionnaire | [V3.2](https://bbppzh.github.io/PolyU-life-simulator/v3.2/) |
+| V4 | Local/international starts, hall/commuting, living budgets and 8 semester routines; retains V3.2 stories and seeded events | Visible time/money trade-offs, independent Jade/Ken semester paths and three-person graduation comparison; pixel music and live spectrum | [V4](https://bbppzh.github.io/PolyU-life-simulator/v4/) |
 
 ## Download every version
 
-Click **Code → Download ZIP** in this repository. It contains all five version folders. Each folder contains a self-contained `PolyU-Life-Simulator.html` for offline desktop play. Open that file in a browser with JavaScript enabled. On iPhone, use Safari to open the public website; the Files preview may not execute the game.
+Click **Code → Download ZIP** in this repository. It contains all six version folders. Each folder contains a self-contained `PolyU-Life-Simulator.html` for offline desktop play. Open that file in a browser with JavaScript enabled. On iPhone, use Safari to open the public website; the Files preview may not execute the game.
 
 ## V3.1 music
 
@@ -34,10 +35,14 @@ V3.2 retains the V3.1 interface, music, six majors, eight talents, attribute all
 
 All 24 major scenarios have individually written consequences. The latest teamwork agreement changes later expectations; internship rejection produces an explicit alternative-placement plan; exchange/research/local choices return in later projects and personal ending paragraphs. Final semester GPA and CGPA are fixed after the last exams, before next-step and farewell choices. See [V3.2 story map](v3.2/STORY-MAP.md). V3.1 keeps its original stories and grade timing.
 
+## V4 different starts and shared campus
+
+Choose local/international student, hall/commuting and monthly living support. Allocate study, social, work and rest time before each semester, with a visible budget and score forecast. Travel, living costs and story spending make the same option carry different costs. Jade and Ken follow their own eight-semester routes alongside yours; graduation compares all three journeys. All money and routines are fictional game values. [V4 details](v4/README.md).
+
 ## Structure
 
 - `index.html`: the collection homepage.
-- `v1/`, `v2/`, `v3/`, `v3.1/`, `v3.2/`: playable versions and offline HTML downloads.
+- `v1/`, `v2/`, `v3/`, `v3.1/`, `v3.2/`, `v4/`: playable versions and offline HTML downloads.
 - `PolyU-Life-Simulator.html`: the previously shared root offline URL, preserved as V2.
 - `LICENSE`: custom Personal-Play License; academic and commercial reuse require written permission.
 - `LEGACY-MIT-NOTICE.txt`: preserved permissions for earlier MIT versions/materials.
@@ -45,7 +50,7 @@ All 24 major scenarios have individually written consequences. The latest teamwo
 
 Game code and styling are included in the HTML for personal play and private source inspection under the applicable license. Progress stays in the current page session; refreshing, closing or changing versions starts a new game. Character names are not sent to a server.
 
-Existing standalone V1, V2 and V3 websites remain available. All five playable editions are now also collected here. This is an unofficial fictional student game; events, grades and endings do not represent real university decisions.
+Existing standalone V1, V2 and V3 websites remain available. All six playable editions are now also collected here. This is an unofficial fictional student game; events, grades and endings do not represent real university decisions.
 
 ## License
 
