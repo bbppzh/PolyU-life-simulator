@@ -13,7 +13,7 @@ Six editions in one repository. Each folder opens directly into its game; the ho
 | V3 | Four years, six major directions, 32 decisions, four hidden scores, eight endings | Text-driven interface and major-specific scenarios | [V3](https://bbppzh.github.io/PolyU-life-simulator/v3/) |
 | V3.1 | Four years, two talents, 16 attribute points, live status, semester GPA and CGPA | Pixel interface, original campus illustration, layered electronic music and Music ON/OFF button | [V3.1](https://bbppzh.github.io/PolyU-life-simulator/v3.1/) |
 | V3.2 | All V3.1 features; recurring characters and relationship memory; 32 main moments + 3 follow-ups; 8 optional seeded events from a pool of 16 (43 choices when enabled) | Red-brick pixel UI, live music spectrum, separate music/effects volumes, keyboard shortcuts, graduation timeline, same-seed replay and feedback questionnaire | [V3.2](https://bbppzh.github.io/PolyU-life-simulator/v3.2/) |
-| V4 | Local/international starts, hall/commuting, living budgets and 8 semester routines; retains V3.2 stories and seeded events | Visible time/money trade-offs, independent Jade/Ken semester paths and three-person graduation comparison; pixel music and live spectrum | [V4](https://bbppzh.github.io/PolyU-life-simulator/v4/) |
+| V4 | Local/international starts, hall/commuting, living budgets and 8 semester routines; retains V3.2 stories and seeded events | Campus dashboard with student passport, red-brick scene, GPA/CGPA chart, interactive life map and starred journal; independent Jade/Ken paths, graduation comparison and pixel music | [V4](https://bbppzh.github.io/PolyU-life-simulator/v4/) |
 
 ## Download every version
 

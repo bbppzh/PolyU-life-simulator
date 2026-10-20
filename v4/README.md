@@ -4,6 +4,14 @@
 
 A separate game based on V3.2. V1, V2, V3, V3.1 and V3.2 retain their own pages. V4 keeps six majors, eight talents, 16 attribute points, 32 main moments, three branching follow-ups, eight optional seeded campus surprises, live status, eight semester GPA/CGPA records, eight broad endings, the journal, ending timeline, original pixel soundtrack, interaction sounds, separate volumes, live spectrum and optional feedback link.
 
+## Campus notebook interface
+
+V4 now uses a responsive campus dashboard. On desktop, a student passport, live status, wallet and routine blocks sit beside the central pixel campus scene and story; Jade, Ken, Dr Leung and a 32-moment life map appear in the other column. Phones put the current story first, with the supporting panels below. The original red-brick SVG illustration changes its sky and campus caption with the current story moment; it is an illustration, not a real-time campus feed.
+
+The notebook toolbar opens saved grades, people, budgets and the complete journal without leaving the current decision. Click a lived map square to revisit its actual recorded consequence, or a semester label to review that term's routine, results and decisions. The GPA/CGPA chart shows completed semesters only and keeps current estimates separate. Star a journal memory to filter it into Saved; these bookmarks belong to the current run and clear when a new run begins. Future map cells cannot advance the game. Keyboard shortcuts pause while a notebook or sound dialog is open. Closing the notebook returns focus to its opener when it is still present.
+
+Every panel reads the existing game state; opening records, viewing charts and saving memories do not consume time, spend money, change scores or reroll outcomes. Existing background choices, routines, narrative branches, characters, grades, seeds, music/effects controls, live spectrum, graduation comparison and optional feedback remain. Gameplay and all illustrations remain self-contained in the offline HTML.
+
 ## Different starting points
 
 Choose local or international student, hall or commuting, and tight/steady/comfortable monthly living support. Background changes time and money; it does not set academic ability. The four attributes and your decisions still shape that.
