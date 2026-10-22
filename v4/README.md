@@ -38,7 +38,7 @@ At the next semester's planning screen, their latest chapter is visible. Graduat
 
 The same seed, background, major, talents, attributes, routines and story choices reproduce a run. Replay this build & seed preserves the starting setup; repeat your routines and choices to recreate it. There are 35 core story decisions, or 43 with campus surprises, plus eight routine plans. Numeric keys choose story cards, and Enter continues outcomes. Routine controls, background radios, sound settings and timeline controls support keyboard focus and touch. Reduced-motion preferences are respected.
 
-Download `PolyU-Life-Simulator.html` for a self-contained desktop edition. It includes the game code, styles, font and synthesized audio; gameplay uses no login, API, model tokens or external service. The optional Microsoft Forms feedback link needs internet. On iPhone use the public website in Safari. Refreshing or closing resets this run; sound preferences are stored separately.
+Download `PolyU-Life-Simulator.html` for a self-contained desktop edition. It includes the game code, styles, font and synthesized audio; gameplay uses no login, API, model tokens or external service. The optional Microsoft Forms feedback link needs internet. A red-brick pixel button in the bottom-right opens [PolyU Campus 3D](https://bbppzh.github.io/polyu-campus-3d/) in a separate tab, preserving the current game page. The campus link also needs internet and is included in the offline edition. On iPhone use the public website in Safari. Refreshing or closing resets this run; sound preferences are stored separately.
 
 ## License
 
