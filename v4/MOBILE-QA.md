@@ -22,7 +22,7 @@ The published V4 was opened on the user's iPhone through iPhone Mirroring. These
 
 - Chose Health Sciences and two talents, started a life, adjusted a Study allocation from 4 to 3, reloaded and continued. The unfinished allocation and one remaining block were restored.
 - Committed the routine, chose the elective with a friend, reloaded and continued. The same choice and result were shown; the recorded balance remained $6,240 after the $160 charge and the resume screen showed one recorded decision.
-- Changed both sound sliders, started music and observed the live spectrum. The Feedback link opened the existing Microsoft Forms in Safari; returning showed MUSIC OFF. The test then attempted to restore the slider positions; their exact final values were not separately checked.
+- Changed both sound sliders, started music and observed the live spectrum. The Feedback link opened the existing Microsoft Forms in Safari; returning showed MUSIC OFF. A later iPhone check confirmed the original slider positions were restored: music 55%, effects 45%.
 - On the actual phone, the header and story controls were visible and usable. A mobile layout change puts setup and Continue before the long introduction. After the final scroll-position fix was published, reloading from the first decision result placed Continue in the first screen; continuing restored the same choice and $6,240 balance.
 
 ## Remaining limits
