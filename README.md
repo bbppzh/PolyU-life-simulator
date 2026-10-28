@@ -37,7 +37,7 @@ All 24 major scenarios have individually written consequences. The latest teamwo
 
 ## V4 different starts and shared campus
 
-Choose local/international student, hall/commuting and monthly living support. Allocate study, social, work and rest time before each semester, with a visible budget and score forecast. Travel, living costs and story spending make the same option carry different costs. Jade and Ken follow their own eight-semester routes alongside yours; graduation compares all three journeys. All money and routines are fictional game values. [V4 details](v4/README.md).
+Choose local/international student, hall/commuting and monthly living support. Allocate study, social, work and rest time before each semester, with a visible budget and score forecast. Travel, living costs and story spending make the same option carry different costs. Jade and Ken follow their own eight-semester routes alongside yours; graduation compares all three journeys. All money and routines are fictional game values. V4 also supports local autosave/resume, six continuing major projects, a downloadable graduation PNG and feedback throughout the game. [V4 details](v4/README.md).
 
 ## Structure
 

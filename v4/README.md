@@ -8,7 +8,7 @@ A separate game based on V3.2. V1, V2, V3, V3.1 and V3.2 retain their own pages.
 
 V4 now uses a responsive campus dashboard. On desktop, a student passport, live status, wallet and routine blocks sit beside the central pixel campus scene and story; Jade, Ken, Dr Leung and a 32-moment life map appear in the other column. Phones put the current story first, with the supporting panels below. The original red-brick SVG illustration changes its sky and campus caption with the current story moment; it is an illustration, not a real-time campus feed.
 
-The notebook toolbar opens saved grades, people, budgets and the complete journal without leaving the current decision. Click a lived map square to revisit its actual recorded consequence, or a semester label to review that term's routine, results and decisions. The GPA/CGPA chart shows completed semesters only and keeps current estimates separate. Star a journal memory to filter it into Saved; these bookmarks belong to the current run and clear when a new run begins. Future map cells cannot advance the game. Keyboard shortcuts pause while a notebook or sound dialog is open. Closing the notebook returns focus to its opener when it is still present.
+The notebook toolbar opens saved grades, people, budgets and the complete journal without leaving the current decision. Click a lived map square to revisit its actual recorded consequence, or a semester label to review that term's routine, results and decisions. The GPA/CGPA chart shows completed semesters only and keeps current estimates separate. Star a journal memory to filter it into Saved; these bookmarks are saved with the current run and clear when a new run begins. Future map cells cannot advance the game. Keyboard shortcuts pause while a notebook or sound dialog is open. Closing the notebook returns focus to its opener when it is still present.
 
 Every panel reads the existing game state; opening records, viewing charts and saving memories do not consume time, spend money, change scores or reroll outcomes. Existing background choices, routines, narrative branches, characters, grades, seeds, music/effects controls, live spectrum, graduation comparison and optional feedback remain. Gameplay and all illustrations remain self-contained in the offline HTML.
 
@@ -36,10 +36,20 @@ At the next semester's planning screen, their latest chapter is visible. Graduat
 
 ## Replay and controls
 
-The same seed, background, major, talents, attributes, routines and story choices reproduce a run. Replay this build & seed preserves the starting setup; repeat your routines and choices to recreate it. There are 35 core story decisions, or 43 with campus surprises, plus eight routine plans. Numeric keys choose story cards, and Enter continues outcomes. Routine controls, background radios, sound settings and timeline controls support keyboard focus and touch. Reduced-motion preferences are respected.
+The same seed, background, major, talents, attributes, routines and story choices reproduce a run. Replay this build & seed preserves the starting setup; repeat your routines and choices to recreate it. There are 37 core story decisions, or 45 with campus surprises, plus eight routine plans. Numeric keys choose story cards, and Enter continues outcomes. Routine controls, background radios, sound settings and timeline controls support keyboard focus and touch. Reduced-motion preferences are respected.
 
-Download `PolyU-Life-Simulator.html` for a self-contained desktop edition. It includes the game code, styles, font and synthesized audio; gameplay uses no login, API, model tokens or external service. The optional Microsoft Forms feedback link needs internet. On iPhone use the public website in Safari. Refreshing or closing resets this run; sound preferences are stored separately.
+Download `PolyU-Life-Simulator.html` for a self-contained desktop edition. It includes the game code, styles, font and synthesized audio; gameplay uses no login, API, model tokens or external service. The optional Microsoft Forms feedback link needs internet. On iPhone use the public website in Safari. Progress autosaves on this browser when storage is available. Reopening offers Continue / Revisit graduation; unfinished routine drafts, result screens and starred memories are included. One local save is kept for V4 in this browser; private browsing or clearing site data can remove it, and online/offline saves are separate. Music starts off after returning; sound preferences are stored separately.
 
 ## License
 
 See [LICENSE](LICENSE) for the existing Personal-Play License and [LEGACY-MIT-NOTICE.txt](LEGACY-MIT-NOTICE.txt) for preserved earlier permissions. Pixelify Sans remains under SIL OFL in FONT-LICENSE.txt. This unofficial game uses fictional people, budgets, stories and grades.
+
+## Continuing projects, keepsakes and feedback (2026-10-28)
+
+All six majors retain their four yearly projects and gain a second-year and final-year continuation (12 authored scenes, 36 choices). First-year records return in later projects; follow-ups can build on evidence, shared work or a supported boundary, with different costs and relationship memories. The graduation project archive shows all six entries. Two additional decisions bring each run to 37 core / 45 with campus surprises; eight grades, routine plans and final-exam lock remain.
+
+The welcome screen offers a local saved life. Restoring replays the saved decisions and plans against this content revision and verifies the complete state, including RNG, grades and classmate chapters. Invalid or incompatible saves show a message and can be replaced explicitly. Blocked/full storage never prevents play. This is local browser storage, not an account or cloud backup.
+
+The header Feedback link opens the same optional Microsoft Forms survey during setup or play. The survey adds optional version and progress questions; no game data is appended to the link. Graduation offers an original pixel keepsake canvas and a PNG download. It draws your real ending, major, scores and three choices locally, without uploading anything or fetching an image.
+
+See [MOBILE-QA.md](MOBILE-QA.md) for browser and physical iPhone verification, and [IMPLEMENTATION-PLAN.md](IMPLEMENTATION-PLAN.md) for scope and acceptance criteria.

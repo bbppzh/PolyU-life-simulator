@@ -1,6 +1,6 @@
 # V4 story map and review response
 
-The 32 main moments retain V3.1's four-year sequence. Every playthrough has one follow-up inside each of three conflicts: 35 decisions in total. A follow-up uses the same semester moment and rejoins the next main moment after its decision.
+The 32 main moments retain V3.1's four-year sequence. Every playthrough has one follow-up inside each of three conflicts plus two discipline follow-ups: 37 decisions in total. A follow-up uses the same semester moment and rejoins the next main moment after its decision.
 
 | Main story | First choice selects | Different information in the follow-up | Continuing state |
 | --- | --- | --- | --- |
@@ -41,3 +41,18 @@ Before each term, commit exactly one routine. Background determines 10 commuting
 Commuter hall entry/conflict and attached follow-ups become shared-campus-space conversations. Their state flags continue to feed later callbacks, with room language adapted to a commuter's context. Jade is a hall/campus friend rather than an assumed roommate.
 
 After each complete semester (step 3, 7, 11, 15, 19, 23, 27, 31), Jade and Ken each receive a new independent seeded chapter. The final academic checkpoint remains step 29; peer term eight closes after farewell, preserving the final relationship choices. Eight routine histories, eight peer chapters per character and the three-person graduation comparison read the saved states without rerolling them.
+
+## Six continuing major projects
+
+Every major has two additional follow-ups after its second- and fourth-year main project. Each reads the recorded first-year approach; final year also reads the second-year continuation. Evidence / shared checking / bounded delivery choices keep different results, costs and relationship memories. The four original projects and two follow-ups appear together in the graduation archive and the ending timeline.
+
+| Major | Second-year continuation | Final-year continuation |
+| --- | --- | --- |
+| DSAI | Source drift, subgroup checks and supported inputs | External batch, warning interpretation and model boundary |
+| Computing | Clean installation, ownership and supported release | Recovery, next maintainer and handover boundary |
+| Business | Demand evidence, sampling and a capped pilot | Downside forecast, operating assumptions and staged launch |
+| Design | Unprompted testing, interpretation and accessible core | Accessibility, credited process and bounded portfolio |
+| Engineering | Repeated failure, assembly checks and operating range | Failure tests, independent operation and unresolved limits |
+| Health | Source appraisal, uncertainty and educational scope | De-identification, plain language and context of reuse |
+
+Each run has 32 main moments, 3 conflict follow-ups, 2 major continuations and optionally 8 campus surprises: 37 / 45 decisions. The new follow-ups do not move the semester clock or consume the random event deck. Final grades still lock at the existing last-finals checkpoint.
