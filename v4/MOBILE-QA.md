@@ -23,10 +23,12 @@ The published V4 was opened on the user's iPhone through iPhone Mirroring. These
 - Chose Health Sciences and two talents, started a life, adjusted a Study allocation from 4 to 3, reloaded and continued. The unfinished allocation and one remaining block were restored.
 - Committed the routine, chose the elective with a friend, reloaded and continued. The same choice and result were shown; the recorded balance remained $6,240 after the $160 charge and the resume screen showed one recorded decision.
 - Changed both sound sliders, started music and observed the live spectrum. The Feedback link opened the existing Microsoft Forms in Safari; returning showed MUSIC OFF. The test then attempted to restore the slider positions; their exact final values were not separately checked.
-- On the actual phone, the header and story controls were visible and usable. A mobile layout change puts setup and Continue before the long introduction.
+- On the actual phone, the header and story controls were visible and usable. A mobile layout change puts setup and Continue before the long introduction. After the final scroll-position fix was published, reloading from the first decision result placed Continue in the first screen; continuing restored the same choice and $6,240 balance.
 
 ## Remaining limits
 
-- The physical iPhone test did not complete all eight semesters or test the final PNG download, rotation, or the final scroll-position fix on the phone. The full runs and PNG download above were checked on desktop instead.
+- The physical iPhone test did not complete all eight semesters or test the final PNG download or rotation on the phone. The full runs and PNG download above were checked on desktop instead.
 - The attempted desktop browser viewport override did not take effect during this session; it does not establish new 320px/390px results. The prior dashboard checks are separate from this update.
 - No claim is made about player enjoyment, actual feedback submissions, human listening quality or a measured improvement in completion.
+
+The final public scroll fix was checked on the phone after GitHub Pages deployment of commit `a8155bb99cd5047e2ce67d09f678491ef03324dd`. Evidence: `output/v4-final-iphone-resume.png` in the local working project.
