@@ -2,29 +2,31 @@
 
 Date: 2026-10-28 (Asia/Hong_Kong)
 
-## Automated model checks
+## Automated checks
 
 - 216 complete runs across 12 backgrounds, six majors and three policies.
 - 2,574 save round-trips across 18 complete runs: planning/drafts, playing, results, branches and graduation; RNG, scores, plans and memories match uninterrupted play.
-- Corrupted/incompatible/tampered saves and blocked storage return a usable message.
+- Corrupted, incompatible and tampered saves, plus blocked storage, return a usable message.
 - Every major has two continuations, eight grades remain final, and all six project entries reach graduation.
 
-## Browser checks in progress
+## Desktop browser and questionnaire
 
-- Full 45-choice DSAI flow completed, with both new continuations.
-- Routine draft, selected result and saved memory survived reload and explicit Continue.
-- Actual PNG download created and opened; additional long-text and mobile checks follow.
-- Same Microsoft Forms respondent URL retains the original nine questions and appends two optional questions (version/progress). No test response submitted.
+- Completed a 45-choice DSAI run and a 37-choice Design run, including both major continuations.
+- A routine draft, selected result and starred memory survived reload and explicit Continue. Public V4 was also checked after publication. In the final local preview, a page scrolled to the graduation card was reloaded and the Continue button returned to the first screen.
+- Downloaded and opened actual PNG cards, including a long Chinese name. Graduation-card download was checked on the desktop browser.
+- The same Microsoft Forms respondent URL retains the original nine questions and has two additional optional questions about version and progress. The public questions and options were checked; no test response was submitted.
 
-## Real iPhone Safari checklist
+## Physical iPhone Safari
 
-Use the published V4 URL in Safari, not Files preview. Physical device verification is pending publication of this update; desktop viewport checks are recorded separately.
+The published V4 was opened on the user's iPhone through iPhone Mirroring. These are direct checks of the interface, not feedback from an independent player:
 
-1. Start a life; adjust a routine, reload, Continue, and check the unfinished allocation.
-2. Choose an option, reload its result, Continue, and check it is not applied twice.
-3. Open Sound, adjust both volume sliders, play/pause and switch away; returning must not force autoplay.
-4. Open Feedback in a separate tab and return to the same game; inspect version/progress questions without submitting a test response.
-5. Rotate or scroll through story controls; check text and 44px controls without horizontal overflow.
-6. Complete graduation, download the PNG and check Save/Downloads behaviour; revisit graduation through Continue.
+- Chose Health Sciences and two talents, started a life, adjusted a Study allocation from 4 to 3, reloaded and continued. The unfinished allocation and one remaining block were restored.
+- Committed the routine, chose the elective with a friend, reloaded and continued. The same choice and result were shown; the recorded balance remained $6,240 after the $160 charge and the resume screen showed one recorded decision.
+- Changed both sound sliders, started music and observed the live spectrum. The Feedback link opened the existing Microsoft Forms in Safari; returning showed MUSIC OFF. The test then attempted to restore the slider positions; their exact final values were not separately checked.
+- On the actual phone, the header and story controls were visible and usable. A mobile layout change puts setup and Continue before the long introduction.
 
-Record only steps actually observed, device/browser details available on screen, and limitations. No enjoyment/player-feedback claims are inferred from these checks.
+## Remaining limits
+
+- The physical iPhone test did not complete all eight semesters or test the final PNG download, rotation, or the final scroll-position fix on the phone. The full runs and PNG download above were checked on desktop instead.
+- The attempted desktop browser viewport override did not take effect during this session; it does not establish new 320px/390px results. The prior dashboard checks are separate from this update.
+- No claim is made about player enjoyment, actual feedback submissions, human listening quality or a measured improvement in completion.
